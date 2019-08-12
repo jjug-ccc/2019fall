@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<!-- saved from url=(0054)https://amantest-dom-gatoru.herokuapp.com/sponsor.html -->
-<html class="gr__amantest-dom-gatoru_herokuapp_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="./index_files/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
@@ -18,15 +20,15 @@
     <meta property="og:description" content="JJUG CCC 2019 Fall/Japan Java User Group Cross Community Conference 2019 Fall">
     <title>JJUG CCC 2019 Fall</title>
 
-    <link rel="shortcut icon" href="https://amantest-dom-gatoru.herokuapp.com/static/images/favicon.ico">
+    <link rel="shortcut icon" href="./static/images/favicon.ico">
     <link rel="stylesheet" href="./index_files/uikit.min.css">
     <link rel="stylesheet" href="./index_files/index.css" type="text/css">
 
     <script src="./index_files/uikit.min.js"></script>
     <script src="./index_files/uikit-icons.min.js"></script>
     <!--[if lt IE 9]>
-	<script src="static/js/html5shiv.js"></script>
-	<script src="static/js/respond.min.js"></script>
+	<script src="./static/js/html5shiv.js"></script>
+	<script src="./static/js/respond.min.js"></script>
 	<![endif]-->
 </head>
 
@@ -42,17 +44,12 @@
     </div>
     <div class="uk-section uk-section-antiquewhite">
         <div class="uk-container">
-            <h3>スポンサーに関するお申し込み・お問い合わせ</h3>
+            <h1>スポンサーお申し込み</h1>
             <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
 
                 <input type="hidden" name="orgid" value="00D2v000001WPup">
                 <input type="hidden" name="retURL" value="http://">
 
-                <!--  ----------------------------------------------------------------------  -->
-                <!--  注意: これらの項目は、省略可能なデバッグ用要素です。デバッグモードでテストを行う場合は、これらの行をコメント解除してください。        -->
-                <!--  <input type="hidden" name="debug" value=1>                              -->
-                <!--  <input type="hidden" name="debugEmail" value="pandan0308@gmail.com">    -->
-                <!--  ----------------------------------------------------------------------  -->
                 <div class="form-row">
                     <div class="form-group col-sm-4">
                         <label for="company">会社名</label><input id="company" maxlength="80" name="company" size="20" type="text" class="form-control" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
@@ -60,26 +57,75 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group col-sm-4">
-                        <label for="name">お名前</label><input id="name" maxlength="80" name="name" size="20" type="text" class="form-control">
+                        <label for="name">担当者</label><input id="name" maxlength="80" name="name" size="20" type="text" class="form-control">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-sm-4">
-                        <label for="email">メール</label><input id="email" maxlength="80" name="email" size="20" type="text" class="form-control">
+                        <label for="email">担当者メールアドレス</label><input id="email" maxlength="80" name="email" size="20" type="text" class="form-control">
                     </div>
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <label for="subject">件名</label><input id="subject" maxlength="80" name="subject" size="20" type="text" class="form-control">
-                    </div>
+                <h4>スポンサータイプ(複数回答可)</h4>
+                <div class="form-check">
+                    <input class="form-check-input" id="00N2v00000MYLkg" name="00N2v00000MYLkg" type="checkbox" value="1" disabled="disabled" />
+                    <label class="form-check-label" for="00N2v00000MYLkg">ダイヤモンド(基調講演1枠)</label>
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <label for="description">説明</label><textarea name="description" class="form-control" rows="5"></textarea><br>
-                    </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="00N2v00000MYLqK" name="00N2v00000MYLqK" type="checkbox" value="1" />
+                    <label class="form-check-label" for="00N2v00000MYLqK">プラチナ(講演2枠)</label>
                 </div>
-                <input type="submit" name="submit" class="btn btn-primary">
+                <div class="form-check">
+                    <input class="form-check-input" id="00N2v00000MYLqP" name="00N2v00000MYLqP" type="checkbox" value="1" />
+                    <label class="form-check-label" for="00N2v00000MYLqP">ゴールド(講演1枠)</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="00N2v00000MYLqy" name="00N2v00000MYLqy" type="checkbox" value="1" />
+                    <label class="form-check-label" for="00N2v00000MYLqy">ランチ(弁当付き講演1枠)</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="00N2v00000MYLr3" name="00N2v00000MYLr3" type="checkbox" value="1" />
+                    <label class="form-check-label" for="00N2v00000MYLr3">ブース(ブース枠＋会場LT枠)</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="00N2v00000MYLr8" name="00N2v00000MYLr8" type="checkbox" value="1" />
+                    <label class="form-check-label" for="00N2v00000MYLr8">コーヒーカップデザイン(懇親会LT枠)</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="00N2v00000MYLrI" name="00N2v00000MYLrI" type="checkbox" value="1" />
+                    <label class="form-check-label" for="00N2v00000MYLrI">ビールカップデザイン(懇親会LT枠)</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="00N2v00000MYLrN" name="00N2v00000MYLrN" type="checkbox" value="1" />
+                    <label class="form-check-label" for="00N2v00000MYLrN">懇親会フード・ドリンク(懇親会LT枠)</label>
+                </div>
 
+                <h4>スポンサーを行う目的(複数回答可)</h4>
+                <div class="form-check">
+                    <input class="form-check-input" id="00N2v00000MYLrS" name="00N2v00000MYLrS" type="checkbox" value="1" disabled="disabled" checked />
+                    <label class="form-check-label" for="00N2v00000MYLrS">Javaコミュニティの支援</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="00N2v00000MYLrw" name="00N2v00000MYLrw" type="checkbox" value="1" />
+                    <label class="form-check-label" for="00N2v00000MYLrw">採用</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="00N2v00000MYLsB" name="00N2v00000MYLsB" type="checkbox" value="1" />
+                    <label class="form-check-label" for="00N2v00000MYLsB">自社製品/サービスの紹介</label>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <label for="description">事務局への質問等</label><textarea name="description" class="form-control" rows="5"></textarea><br>
+                    </div>
+                </div>
+
+                <input id="subject" name="subject" type="hidden" value="スポンサー申し込み">
+
+                <h4>スポンサーお申し込みに関する注意事項</h4>
+                <li>本ページでのお申し込みはスポンサー枠の確保とはなりません。別途、事務局より連絡を差し上げた上での確定となります。</li>
+                <li>初めてお申し込みをされる企業様は、事務局にてインタビューをさせていただいくことがあります。</li>
+                <li>スポンサー枠に限りがあるため、お申し込みをいただいても、ご希望に添えない場合があります</li>
+
+                <input type="submit" name="submit" class="btn btn-primary">
             </form>
         </div>
     </div>
@@ -102,7 +148,9 @@
         </div>
         <p class="uk-text-center uk-text-small uk-text-white">© Copyright 2019 JJUG - All rights reserved.</p>
     </div>
-    
 
 
-</body></html>
+
+</body>
+
+</html>
